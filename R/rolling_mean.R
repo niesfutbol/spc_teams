@@ -1,8 +1,10 @@
+#' @export
 xg_rolling_mean <- function(league) {
   metric <- "xG"
   metric_rolling_mean(league, metric)
 }
 
+#' @export
 ppda_rolling_mean <- function(league) {
   metric <- "PPDA"
   metric_rolling_mean(league, metric)
