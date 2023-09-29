@@ -1,5 +1,5 @@
 Package: spcTeam
-Title: Template for R projects
+Title: Statistics Process Control of Teams
 Authors@R: c(
     person(given = "nies futbol",
            family = "nies futbol",
@@ -7,15 +7,16 @@ Authors@R: c(
            email = "nepo@nies.futbol"
            ))
 Config/testthat/edition: 3
-Description: Plantilla de Ciencia de Datos en nies.futbol para proyectos en R
+Description: Módulo para realizar un control estadístico de las principales métricas de un equipo.
 Encoding: UTF-8
 Imports:
+    RcppRoll,
     R6,
     tidyverse
 LazyData: true
 License: AGPL-3.0-or-later
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Suggests:
     devtools,
     roxygen2,
