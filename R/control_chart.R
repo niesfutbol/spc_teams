@@ -1,3 +1,3 @@
 shuffle <- function(data) {
-  data + 1
+  sample(data)
 }
