@@ -11,3 +11,9 @@ describe("Resort data", {
     expect_true(all(data[["a"]] %in% obtained[["a"]]))
   })
 })
+
+describe("Control chart",{
+  it("From data calculate mean and sd", {
+    control_chart <- Control_Chart$new()
+  })
+})
