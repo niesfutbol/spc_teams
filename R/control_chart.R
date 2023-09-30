@@ -1,3 +1,4 @@
+#' @export
 shuffle <- function(data) {
-  sample(data)
+  dplyr::sample_n(data, nrow(data))
 }
