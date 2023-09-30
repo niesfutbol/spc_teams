@@ -7,5 +7,6 @@ Control_Chart <- R6::R6Class("Control_Chart", list(
   mean = NULL,
   sd = NULL,
   initialize = function(data) {
+    self$mean <- mean(data)
   }
 ))
