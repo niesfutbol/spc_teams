@@ -3,6 +3,7 @@ shuffle <- function(data) {
   dplyr::sample_n(data, nrow(data))
 }
 
+#' @export
 Control_Chart <- R6::R6Class("Control_Chart", list(
   mean = NULL,
   sd = NULL,
