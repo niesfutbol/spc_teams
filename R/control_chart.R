@@ -2,3 +2,10 @@
 shuffle <- function(data) {
   dplyr::sample_n(data, nrow(data))
 }
+
+Control_Chart <- R6::R6Class("Control_Chart", list(
+  mean = NULL,
+  sd = NULL,
+  initialize = function(data) {
+  }
+))

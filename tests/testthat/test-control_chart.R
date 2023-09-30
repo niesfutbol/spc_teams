@@ -12,7 +12,7 @@ describe("Resort data", {
   })
 })
 
-describe("Control chart",{
+describe("Control chart", {
   it("From data calculate mean and sd", {
     control_chart <- Control_Chart$new()
   })
