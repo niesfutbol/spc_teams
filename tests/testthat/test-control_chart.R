@@ -14,6 +14,8 @@ describe("Resort data", {
 
 describe("Control chart", {
   it("From data calculate mean and sd", {
-    control_chart <- Control_Chart$new()
+    data <- c(2.5, 3.5)
+    control_chart <- Control_Chart$new(data)
+    expect_equal(control_chart$mean, 3)
   })
 })
