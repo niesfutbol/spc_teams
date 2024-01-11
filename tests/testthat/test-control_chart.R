@@ -15,6 +15,6 @@ describe("Control chart", {
     data <- c(2.5, 3.5)
     control_chart <- Control_Chart$new(data)
     expect_equal(control_chart$mean, 3)
-    expect_equal(control_chart$sd, 0.707, tolerance=1e-3)
+    expect_equal(control_chart$sd, 0.707, tolerance = 1e-3)
   })
 })
